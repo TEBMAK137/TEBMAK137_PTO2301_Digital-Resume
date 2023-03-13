@@ -1,0 +1,25 @@
+header {
+    background-color: rgb(43, 122, 226);
+    font-family: Cambria, Cochin, Verdana, Geneva, Tahoma, sans-serif
+}
+h1 {
+    color: aliceblue;
+    fon
+}
+aside {
+    background-position: left;
+    background-color: burlywood;
+}
+img {
+    display: block;
+    margin: auto;
+}
+article {
+    background-color: rgba(211, 201, 201, 0.926);
+}
+footer {
+    background-color: cadetblue;
+}
+#education,#experience,#skills  {
+    font-weight: 400;
+}
