@@ -1,0 +1,53 @@
+p {
+    margin: 20px 20px;
+}
+header {
+    padding-bottom: 2px;
+    margin-bottom: -10px;
+    background-color: rgb(43, 122, 226);
+    font-family: Cambria, Cochin, Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: aliceblue;
+}
+aside {
+    background-color: burlywood;
+}
+img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 150px;
+    margin-bottom: -10px;
+    border-color: rgb(226, 169, 148);
+    border-style: solid;
+}
+article {
+    border: solid;
+    margin-top: -20px;
+    background-color: rgba(211, 201, 201, 0.926);
+}
+footer {
+    margin-top: -3px;
+    background-color: cadetblue;
+    border-style: dotted;
+}
+#education,#experience,#skills  {
+    font-weight: 400;
+    margin: 10px;
+}
+.links{
+   
+   border-style: solid;
+   border-radius: 5px 5px 5px 5px;
+   background-color: rgb(33, 189, 137);
+   background-size: large;
+   margin-top: -7.5px;
+   margin-bottom: 1px;
+}
+h3, h2 {
+    margin: 5px;
+}
+h1 {
+    margin: 10px;
+}
