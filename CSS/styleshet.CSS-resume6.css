@@ -1,0 +1,93 @@
+p {
+  margin: 20px 20px;
+}
+header {
+  padding: 2px;
+  padding-bottom: 2px;
+  margin-bottom: -10px;
+  background-color: rgb(43, 122, 226);
+  font-family: Cambria, Cochin, Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  color: aliceblue;
+  padding: 2px;
+}
+aside {
+  background-color: burlywood;
+  position: sticky;
+  top: 10px;
+}
+img {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 150px;
+  margin-bottom: -10px;
+  border-color: rgb(226, 169, 148);
+  border-style: solid;
+  padding: 2px;
+}
+article {
+  border: solid;
+  padding: 2px;
+  margin-top: -20px;
+  background-color: rgba(211, 201, 201, 0.926);
+}
+footer {
+  padding-bottom: 20px;
+  margin-top: -3px;
+  background-color: cadetblue;
+  border-style: dotted;
+}
+#education,#experience,#skills  {
+  font-weight: 400;
+  margin: 10px;
+}
+.links{
+ padding-right: 2px;
+ padding-top: 2px;
+ padding-bottom: 2px;
+ border-style: solid;
+ border-radius: 5px 5px 5px 5px;
+ background-color: rgb(33, 189, 137);
+ background-size: large;
+ margin-top: -7.5px;
+ margin-bottom: 1px;
+}
+h3, h2 {
+  margin: 5px;
+}
+h1 {
+  margin: 10px;
+}
+.flexbox-container {
+  display: flex;
+  background-color: rgba(149, 170, 84, 0.363);
+
+}
+
+.flexbox-item {
+  margin: 10px;
+  
+}
+.box1 {
+  background-color: rgba(162, 220, 117, 0.394) ;
+  min-height: 100px;
+  border: 3px solid cornflowerblue ;
+  width: 550px;
+  flex: 3;
+}
+.box2 {
+  background-color: rgba(162, 220, 117, 0.394) ; 
+  width: 350px;
+  border: 3px solid cornflowerblue ;
+  flex: 2;
+}
+.box3 {
+  flex-grow: 1;
+  width: 300px;
+  background-color: cornflowerblue ;
+  border: 3px solid ;
+  border-color: rgba(162, 220, 117, 0.394);
+  flex: 1;
+}
